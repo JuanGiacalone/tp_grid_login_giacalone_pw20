@@ -60,3 +60,15 @@ input
     font-style: italic;
     color: purple;
 }
+@media screen and (max-width: 400px) {
+    
+    input{
+        border: none;
+        box-shadow: none;
+    }
+    .login_Form
+    {
+        border: none ;
+        box-shadow : none;
+    }
+}

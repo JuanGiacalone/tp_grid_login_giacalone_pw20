@@ -1,0 +1,64 @@
+:root
+{
+    --lil-shadow: 0px 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.05);
+    --lil-grey : #D3D3D3;
+}
+*
+{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: roboto;
+    background-color:   whitesmoke;
+    font-weight: bold;
+    display: block;
+}
+input
+{
+    border: 1px solid;
+    border-radius: 0.25em;
+    border: 1px solid var(--lil-grey) ;;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding: 0.5em;
+    box-shadow: var(--lil-shadow);
+}
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 1em;
+    font-size: 1em;
+}
+.login_Form
+{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em; 
+    padding: 2.5em;
+    border: 1px  solid var(--lil-grey
+    );
+    box-shadow: var(--lil-shadow);
+    background-color: white;
+    border-radius: 0.60em;
+}
+#sign_In_input
+{
+    margin-top: 2em;
+    padding: 0.5em 8em 0.5em 8em;
+    background-color: purple;
+    color: white;
+    
+    border: 0px;
+}
+
+.login_Form a
+{
+    text-decoration: none;
+    font-style: italic;
+    color: purple;
+}
